@@ -14,7 +14,7 @@ let food ={
 }
 
 function criarBG(){
-    context.fillStyle = "#C9FE01";
+    context.fillStyle = "#86A904";
     context.fillRect(0, 0, 16*box, 16*box); 
 }
 
