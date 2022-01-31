@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -13,6 +12,16 @@
 </head>
 <body>
     <h1>Jogo da Cobrinha</h1>
+    
+    <div id="tela">
+    
+    
     <canvas id="snake" width="512" height="512"></canvas>
+
+</div>
 </body>
+    <audio src="audios/musica.mp3" preload="auto" id="musica"></audio>
+    <audio src="audios/gameover.mp3" preload="auto" id="gameover"></audio>
+    <script type="text/javascript" src="./scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./scripts/script.js"></script>
 </html>
