@@ -5,6 +5,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #565656;
+    background-color: #5B5B5B;
     color: rgb(52, 165, 52);
+    font-family: 'Press Start 2P', cursive;
+}
+
+canvas{
+    border: solid 2px black;
 }
