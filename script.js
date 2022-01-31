@@ -14,13 +14,21 @@ let food ={
 }
 
 function criarBG(){
+<<<<<<< HEAD
     context.fillStyle = "#5B5B5B";
+=======
+    context.fillStyle = "#FFFB04";
+>>>>>>> bbc7f10df02658e3ba1d2ba821112bbcf38010d9
     context.fillRect(0, 0, 16*box, 16*box); 
 }
 
 function criarCobrinha (){
     for(i = 0; i < snake.length; i++){
+<<<<<<< HEAD
         context.fillStyle = "black";
+=======
+        context.fillStyle = "#000000";
+>>>>>>> bbc7f10df02658e3ba1d2ba821112bbcf38010d9
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
